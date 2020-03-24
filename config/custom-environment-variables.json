@@ -1,0 +1,22 @@
+{
+	"PASSPORT": {
+		"googleClientId": "googleClientId",
+		"googleClientSecret": "googleClientSecret",
+		"cookieKey": "cookieKey"
+	},
+	"SERVER": {
+		"PORT": "PORT",
+		"SERVER": "HOSTNAME"
+	},
+	"DB": {
+		"DBName": "DBName",
+		"mongoURI": "mongoURI"
+	}
+}
+
+// googleClientId:
+// 	"927914132344-dv09su4q9lumocfofi0p070nsor639la.apps.googleusercontent.com",
+// googleClientSecret: "OEx8ByFLQ4g24KWigusNoHtS",
+// mongoURI:
+// 	"mongodb+srv://afwani:fanifani123@portofoliodb-hnqqn.mongodb.net/?retryWrites=true&w=majority",
+// cookieKey: "wasemhesoyamhesoyam_hesoyam_awokawokawok_abogoabogayamplow"

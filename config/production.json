@@ -1,0 +1,16 @@
+{
+	"status": "server production running.. . 💻",
+	"PASSPORT": {
+		"googleClientId": "9219553008387-r82n2a64ja5nnh049dvsi7kjo8v050m4.apps.googleusercontent.com",
+		"googleClientSecret": "SdNYg82MRmYl3SAhe51sSLw7",
+		"cookieKey": "ThisSoS3cretForNowEWAsassa90120----==00>"
+	},
+	"SERVER": {
+		"PORT": "",
+		"SERVER": "HOSTNAME"
+	},
+	"DB": {
+		"DBName": "emaily_prod",
+		"mongoURI": "mongodb+srv://afwani:fanifani123@portofoliodb-hnqqn.mongodb.net/?retryWrites=true&w=majority"
+	}
+}
