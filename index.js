@@ -5,8 +5,6 @@ const config = require("config");
 const cookieSession = require("cookie-session");
 const app = express();
 
-console.log(config.get("SERVER.PORT"));
-
 //database
 mongoose
 	.connect(config.get("DB.mongoURI"), {
