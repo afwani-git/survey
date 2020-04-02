@@ -11,6 +11,10 @@
 	"DB": {
 		"DBName": "DBName",
 		"mongoURI": "mongoURI"
+	},
+	"STRIPE": {
+		"Publishablekey": "Publishablekey",
+		"Secretkey": "Secretkey"
 	}
 }
 

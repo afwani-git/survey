@@ -28,11 +28,22 @@ app.use(
 	})
 );
 
+app.use(function(req, res, next) {
+	res.header("Access-Control-Allow-Origin", "localhost"); // update to match the domain you will make the request from
+	res.header(
+		"Access-Control-Allow-Headers",
+		"Origin, X-Requested-With, Content-Type, Accept"
+	);
+	return next();
+});
+
+app.use(express.json());
 app.use(passport.initialize());
 app.use(passport.session());
 
 // route
 require("./routes/authRoute")(app);
+require("./routes/billingRoute")(app);
 
 const CALLBACK_SERVER = () => {
 	console.log(`listen on ${PORT} 💻`);
