@@ -16,6 +16,7 @@ mongoose
 
 // models
 require("./models/User");
+require("./models/Surveys");
 
 //services
 require("./services/passport");
@@ -44,6 +45,7 @@ app.use(passport.session());
 // route
 require("./routes/authRoute")(app);
 require("./routes/billingRoute")(app);
+require("./routes/surveyRoute")(app);
 
 const CALLBACK_SERVER = () => {
 	console.log(`listen on ${PORT} 💻`);
