@@ -15,3 +15,16 @@ export const handleToken = id => async dispatch => {
 		console.log(err);
 	}
 };
+
+export const makeSurvey = dataPost => async dispatch => {
+	try {
+		const { data } = await axios.post("/api/survey", dataPost);
+
+		dispatch({
+			type: FETCH_USER,
+			payload: data
+		});
+	} catch (err) {
+		console.log(err);
+	}
+};

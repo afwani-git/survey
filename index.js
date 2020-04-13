@@ -20,6 +20,7 @@ require("./models/Surveys");
 
 //services
 require("./services/passport");
+require("./services/tunnel");
 
 // sessions
 app.use(

@@ -15,7 +15,9 @@
 	"STRIPE": {
 		"Publishablekey": "Publishablekey",
 		"Secretkey": "Secretkey"
-	}
+	},
+	"emailGridKey": "emailGridKey",
+	"redirectURI": "redirectURI"
 }
 
 // googleClientId:

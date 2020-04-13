@@ -16,7 +16,9 @@
 	"STRIPE": {
 		"Publishablekey": "pk_test_WFgYlRB7FWo5St6T5SSwenXK00aExTcQJB",
 		"Secretkey": "sk_test_CWbMQalJK0clqZoJB3L2esHa00CxERP3Te"
-	}
+	},
+	"emailGridKey": "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",
+	"redirectURI": "http://127.0.0.1:3000/"
 }
 
 // googleClientId:
